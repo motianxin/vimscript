@@ -42,15 +42,15 @@ iabbrev initx initial begin<CR>end<Esc>O
 iabbrev finalx final begin<CR>end<Esc>O    
 
 " --- control flow -----------------------------------------------------------
-iabbrev ifx if () begin<CR>end<Esc>O    
-iabbrev ifex if () begin<CR>end else begin<CR>end<Esc>kO    
-iabbrev forx for (int i = 0; i < N; i++) begin<CR>end<Esc>O    
+iabbrev ifb if () begin<CR>end<Esc>O    
+iabbrev ife if () begin<CR>end else begin<CR>end<Esc>kO    
+iabbrev fori for (int i = 0; i < N; i++) begin<CR>end<Esc>O    
 iabbrev fore foreach (arr[i]) begin<CR>end<Esc>O    
-iabbrev whx while () begin<CR>end<Esc>O    
-iabbrev dowh do begin<CR>end while ();<Esc>O    
+iabbrev whi while () begin<CR>end<Esc>O    
+iabbrev dob do begin<CR>end while ();<Esc>O    
 iabbrev forev forever begin<CR>end<Esc>O    
-iabbrev repx repeat () begin<CR>end<Esc>O    
-iabbrev blk begin<CR>end<Esc>O    
+iabbrev repe repeat () begin<CR>end<Esc>O    
+iabbrev beg begin<CR>end<Esc>O    
 
 " --- case -------------------------------------------------------------------
 iabbrev cas case ()<CR>endcase<Esc>O    
@@ -79,8 +79,8 @@ iabbrev cros cross cp_a, cp_b;
 
 " --- $display / $format / $finish / report ----------------------------------
 iabbrev disp $display("");
-iabbrev sfmt $sformatf("%s", );
-iabbrev sprint $sprintf("%s", );
+iabbrev sfor $sformatf("%s", );
+iabbrev spri $sprintf("%s", );
 iabbrev sfin $finish();
 iabbrev serr $error("");
 iabbrev sinfo $info("");
