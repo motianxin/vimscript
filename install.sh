@@ -18,7 +18,7 @@ echo "==> 仓库目录: $REPO"
 if [ ! -d "$REPO/vim/bundle/Vundle.vim" ] && [ -d "$HOME/.vim/bundle" ]; then
   echo "==> 检测到本机已有插件，迁移到仓库 vim/bundle/ ..."
   mkdir -p "$REPO/vim/bundle"
-  cp -r "$HOME/.vim/bundle/." "$REPO/vim/bundle/"
+  cp -rf "$HOME/.vim/bundle/." "$REPO/vim/bundle/"
 fi
 
 # 2. 备份旧配置（软链本身不备份，直接覆盖）
