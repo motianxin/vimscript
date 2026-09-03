@@ -137,17 +137,17 @@ list_history() {
     echo -n "  "
     for ((i=0; i<${#COLORS[@]}; i++)); do
         echo -en "${COLORS[i]}● ${RESET_COLOR}"
-        case $i in
-            0) echo -n "红 ";;
-            1) echo -n "绿 ";;
-            2) echo -n "黄 ";;
-            3) echo -n "蓝 ";;
-            4) echo -n "紫 ";;
-            5) echo -n "青 ";;
-            6) echo -n "白 ";;
-        esac
+        # case $i in
+            # 0) echo -n "红 ";;
+            # 1) echo -n "绿 ";;
+            # 2) echo -n "黄 ";;
+            # 3) echo -n "蓝 ";;
+            # 4) echo -n "紫 ";;
+            # 5) echo -n "青 ";;
+            # 6) echo -n "白 ";;
+        # esac
     done
-    echo -en "\033[0;90m（颜色循环使用）\033[0m"
+    echo -e "\033[0;90m（颜色循环使用）\033[0m"
 }
 
 # 函数：显示简化版历史记录（用于选择时）

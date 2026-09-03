@@ -84,7 +84,7 @@ filetype plugin indent on     " 恢复文件类型检测（必须）
 " ================= 外观与主题 =================
 syntax on
 "set background=dark
-set guifont=DejaVu\ Sans\ Mono\ Bold\ 14
+set guifont=JetBrains\ Mono\ NL\ SemiBold\ 14
 set nu                       " 行号
 set cursorline               " 高亮当前行
 set showmatch                " 括号匹配
