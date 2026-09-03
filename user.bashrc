@@ -13,6 +13,7 @@ a now="date +%m%d%H%M%S | sed '/^0*//'"
 a gitck="git checkout"
 a gitst="git status -suno"
 a gitcm='git commit -m "update by zghuang"'
+a gitpu='git push'
 a sc='source ~/.bashrc'
 a gc='g ~/vimscript/user.bashrc'
 a gv="g ~/vimscript/vimrc"
