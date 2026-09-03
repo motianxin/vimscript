@@ -40,6 +40,8 @@ let g:dotvim_repo = '$REPO'
 source $REPO/vimrc
 EOF
 echo "==> 已生成 bootstrap ~/.vimrc"
+echo "source ~/vimscript/user.bashrc" >> $HOME/.bashrc
+echo "==> 已生成 bootstrap ~/.bashrc"
 
 # 4. ctags 配置软链
 ln -sf "$REPO/ctags.conf" "$HOME/.ctags"
